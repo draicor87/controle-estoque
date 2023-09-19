@@ -1,48 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
-import React from 'react';
-import React, { useState } from 'react'; 
+import React from 'react'; 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Controle de Estoque
-        </p>        
-        
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Controle de Estoque
-        </p>        
-      </header>
+      <header>
+        <div class="container">
+            <h2 class="logo">Controle de Estoque</h2>            
+        </div>
+    </header>
 
-      <body>
-
-        function App() {
-          
-          return (
-    
-
-      
-
-            {/* Conteúdo do container da esquerda */}
-          
-    
-          
-    
-            {/* Conteúdo do container da direita */}
-          
-    
-        
-    
-      );
-
-          }
-
-      </body>
+    <main>
+        <div class="menu-principal">
+            <div class="container">
+                <h3 class="titulo">MENUS</h3>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>            
+        </div>
+    </main>
 
     </div>
   );
