@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from 'react'; 
-
+import MyComponent from './App.jsx';
 
 function App() {
   return (
@@ -12,26 +12,16 @@ function App() {
         </div>
     </header>
 
-    <main>
-        <div class="menu-principal">
-            <div class="container">
-                <h3 class="titulo">MENUS</h3>
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-circle-info"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
-                </div>
-            </div>            
-        </div>
-    </main>
-
+    
+    <div class="menu-principal">
+        <div class="container">
+            <h3 class="titulo">MENUS</h3>
+                <MyComponent />
+            </div>
+        </div>            
     </div>
-  );
+       
+  );  
 }
 
 export default App;
