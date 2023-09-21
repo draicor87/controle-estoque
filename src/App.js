@@ -13,7 +13,7 @@ function App() {
         </div>
       </header>
 
-    
+      <body>
         <div class="menu-principal">
           <div class="container">
               <h3 class="titulo">MENUS</h3>
@@ -25,7 +25,8 @@ function App() {
                 <MyComponent />
           </div>
         </div>
-
+      </body>
+      
     </div>
        
   );  

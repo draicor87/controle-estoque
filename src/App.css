@@ -25,32 +25,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.container {
-  display: flex;
-}
-
-.left-container {
-  flex: 1;
-  background-color: lightblue;
-  padding: 20px;
-}
-
-.right-container {
-  flex: 1;
-  background-color: lightgreen;
-  padding: 20px;
-}
-

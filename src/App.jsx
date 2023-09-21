@@ -9,12 +9,12 @@ const MeuComponente = () => {
 
   return (
     <div style={estiloDoContainer}>
-      <div style={{ width: '50%', backgroundColor: 'red' }}>
+      <div style={{ width: '20%', backgroundColor: 'red' }}>
         {<button type="button" class="btn btn-outline-secondary">Secondary</button>}
         {<button type="button" class="btn btn-outline-secondary">Secondary</button>}
         {<button type="button" class="btn btn-outline-secondary">Secondary</button>}
       </div>
-      <div style={{ width: '50%', backgroundColor: 'blue' }}>
+      <div style={{ width: '80%', backgroundColor: 'blue' }}>
         {<button type="button" class="btn btn-outline-secondary">Secondary</button>}
       </div>
     </div>
