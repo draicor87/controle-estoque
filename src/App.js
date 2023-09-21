@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react'; 
 import MyComponent from './App.jsx';
 
+
 function App() {
   return (
     <div className="App">
@@ -10,15 +11,21 @@ function App() {
         <div class="container">
             <h2 class="logo">Controle de Estoque</h2>            
         </div>
-    </header>
+      </header>
 
     
-    <div class="menu-principal">
-        <div class="container">
-            <h3 class="titulo">MENUS</h3>
+        <div class="menu-principal">
+          <div class="container">
+              <h3 class="titulo">MENUS</h3>
+          </div>
+        </div>
+
+        <div class="menu-principal">
+          <div class="container">
                 <MyComponent />
-            </div>
-        </div>            
+          </div>
+        </div>
+
     </div>
        
   );  
