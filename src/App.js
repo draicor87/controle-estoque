@@ -2,6 +2,7 @@
 import './App.css';
 import React from 'react'; 
 import MyComponent from './App.jsx';
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 function App() {
@@ -13,15 +14,9 @@ function App() {
         </div>
       </header>
 
-      <body>
+      <body>    
         <div class="menu-principal">
-          <div class="container">
-              <h3 class="titulo">MENUS</h3>
-          </div>
-        </div>
-
-        <div class="menu-principal">
-          <div class="container">
+          <div class="container rounded">
                 <MyComponent />
           </div>
         </div>
